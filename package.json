@@ -1,0 +1,8 @@
+{
+  "name": "wrangler-local-r2-proxy",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "packageManager": "pnpm@10.0.0"
+}
