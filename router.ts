@@ -14,7 +14,7 @@ export const prerender = false
 
 export const ALL: APIRoute = async (context) => {
   const url = new URL(context.request.url)
-  const filename = '/' + context.params.file
+  const filename = context.params.file
   console.log('router(ALL)', { url, params: context.params, filename })
 
   if (!filename) {
